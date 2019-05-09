@@ -44,7 +44,7 @@ export class FileuploaderComponent  {
         .subscribe((data:any) => {
           console.log('Status ' +  data.message);
         }, (error) => {
-          console.log('Error! ' + error);
+          console.error('Error! ' + error);
         });
     }
     fileReader.readAsBinaryString(imageData);
