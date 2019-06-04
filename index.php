@@ -4,10 +4,10 @@ header('Content-Type: application/json; charset=utf-8');
 header("Access-Control-Allow-Origin: *");
 header("Access-Control-Allow-Methods: PUT, GET, POST");
 
-$servername = "127.0.0.1";
-$username = "root";
-$password = "";
-$db = "imageDb";
+$servername = "35.244.89.232";
+$username = "mean_chocolate_slug";
+$password = "pass@123";
+$db = "upload_db";
 
 
 $conn = new mysqli($servername, $username, $password, $db);
